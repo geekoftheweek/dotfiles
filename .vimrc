@@ -24,7 +24,7 @@ set number
 nmap <F2> :w\|!python %<cr>
 imap <F2> <Esc>:w\|!python %<cr>
 
-set tw=110
+set tw=79
 
 execute pathogen#infect()
 
